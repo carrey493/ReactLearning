@@ -16,7 +16,8 @@
 
 - 声明式编码
 - 组件化编码
-- React Native编写原生应用-4)高效〈优秀的 Diffing 算法）
+- React Native编写原生应用
+- 高效〈优秀的 Diffing 算法）
 
 ### 1.1.4.React高效的原因
 
