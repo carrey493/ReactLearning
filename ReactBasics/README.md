@@ -199,6 +199,8 @@ ReactDOM.render(<MyComponent />, document.getElementById("test"));
 
 #### 2.2.1效果
 
+![image-20211212190247790](C:\Users\admin\AppData\Roaming\Typora\typora-user-images\image-20211212190247790.png)
+
 #### 2.2.2理解
 
 - 状态-数据-页面
@@ -206,3 +208,9 @@ ReactDOM.render(<MyComponent />, document.getElementById("test"));
 - 组件被称为‘状态机’，通过更新组件的state来更新对应的页面显示（重新渲染组件）
 
 #### 2.2.3强烈注意
+
+- 组件中render方法中的this为组件实例对象
+- 组件自定义的方法中this为undefined,如何解决？
+  - 强制绑定this，通过函数对象的bind()
+  - 箭头函数
+- 状态数据，不能直接修改或更新
