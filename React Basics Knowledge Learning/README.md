@@ -16,15 +16,22 @@
 
 #### 1.1.3React特点
 
-- 声明式编码
+- 声明式编码,提高开发效率及组件复用率。
 - 组件化编码
-- React Native编写原生应用
-- 高效〈优秀的 Diffing 算法）
+- React Native编写原生应用，可以使用React语法进行移动端开发。
+- 高效〈优秀的 Diffing 算法）尽量减少与真实DOM的交互。
 
-#### 1.1.4.React高效的原因
+#### 1.1.4React高效的原因
 
 - 使用虚拟(virtual)DOM,不总是直接操作页面真实DOM。
 - DOM Diffing 算法,最小化页面重绘。
+
+#### 1.1.5为什么学习React
+
+- 原生JavaScript操作DOM繁琐、效率低（DOM-API操作UI).
+- 使用JavaScript直接操作DOM，浏览器会进行大量的重绘重排.
+- 原生JavaScript没有组件化编码方案，代码复用率低。
+
 
 ### 1.2React的基本使用
 
