@@ -1,32 +1,41 @@
 # React基础知识学习
 
-## 第一章：React入门
+## 第一章 React入门
 
-### 1.1Reacr简介
+### 1.1 Reacr简介
 
-#### 1.1.1官网
+#### 1.1.1 官网
 
 - 英文官网: https://reactjs.org
 - 中文官网: https://react.docschina.org/
 
-#### 1.1.2介绍描述
+#### 1.1.2 介绍描述
 
+**是一个将数据渲染为HTML视图的开源JavaScript 库。**
+
+- 发送请求获取数据
+- 处理数据(过滤、整理格式等)
+- 操作DOM呈现页面
 - 用于动态构建用户界面的JavaScript库(只关注于视图)
-- 由Facebook开源
 
-#### 1.1.3React特点
+**由Facebook开源**
+- 起初由Facebook的软件工程师Jordan Walke 创建。于2011年部署于Facebook的newsfeed。
+- 随后在2012年部署于Instagram。
+- 2013年5月宣布开源。
+
+#### 1.1.3 React特点
 
 - 声明式编码,提高开发效率及组件复用率。
 - 组件化编码
 - React Native编写原生应用，可以使用React语法进行移动端开发。
 - 高效〈优秀的 Diffing 算法）尽量减少与真实DOM的交互。
 
-#### 1.1.4React高效的原因
+#### 1.1.4 React高效的原因
 
 - 使用虚拟(virtual)DOM,不总是直接操作页面真实DOM。
 - DOM Diffing 算法,最小化页面重绘。
 
-#### 1.1.5为什么学习React
+#### 1.1.5 为什么学习React
 
 - 原生JavaScript操作DOM繁琐、效率低（DOM-API操作UI).
 - 使用JavaScript直接操作DOM，浏览器会进行大量的重绘重排.
